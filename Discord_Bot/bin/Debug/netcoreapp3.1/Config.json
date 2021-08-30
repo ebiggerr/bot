@@ -1,0 +1,8 @@
+﻿{
+  "version": "0.1",
+  "token": "PUT_YOUR_TOKEN_HERE",
+
+  "currently": "playing",
+  "playing_status": "humans",
+  "status": "online"
+}
