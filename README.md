@@ -2,7 +2,7 @@
 Learning how to make a Discord bot.
 
 ---
-# Overview
+## Overview
 
 The source code is based on another repo. 
 
