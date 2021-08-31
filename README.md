@@ -4,9 +4,14 @@ Learning how to make a Discord bot.
 ---
 # Overview
 
-The source code is based on another repo.
+The source code is based on another repo. 
 
 Link: [Discord-Bot-Csharp](https://github.com/VACEfron/Discord-Bot-Csharp)
+
+---
+
+## Roadmap
+1. Adding more functionalities to the bot
 
 ---
 
