@@ -56,6 +56,13 @@ namespace Discord_Bot.Functions
             using StreamReader configJson = new StreamReader(Directory.GetCurrentDirectory() + @"/Config.json");
                 return (JObject)JsonConvert.DeserializeObject(configJson.ReadToEnd());
         }
+        
+        public static JObject GetSweTemplate()
+        {
+            // Get the config file.
+            using StreamReader configJson = new StreamReader(Directory.GetCurrentDirectory() + @"/swe_response.json");
+            return (JObject)JsonConvert.DeserializeObject(configJson.ReadToEnd());
+        }
 
         public static string GetAvatarUrl(SocketUser user, ushort size = 1024)
         {
